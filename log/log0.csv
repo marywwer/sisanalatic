@@ -1,0 +1,656 @@
+03.05.2024 00:31:00;----------------------------------------------------------------------------------
+03.05.2024 00:31:00;----------------------------------------------------------------------------------
+03.05.2024 00:31:00;----------------------------------------------------------------------------------
+03.05.2024 00:31:00;QUERY_STRING;
+03.05.2024 00:31:00;REQUEST_METHOD;GET
+03.05.2024 00:31:00;CONTENT_TYPE;
+03.05.2024 00:31:00;CONTENT_LENGTH;
+03.05.2024 00:31:00;REQUEST_URI;/
+03.05.2024 00:31:00;PATH_INFO;/
+03.05.2024 00:31:00;DOCUMENT_ROOT;/usr/share/nginx/html
+03.05.2024 00:31:00;SERVER_PROTOCOL;HTTP/1.1
+03.05.2024 00:31:00;REQUEST_SCHEME;https
+03.05.2024 00:31:00;HTTPS;on
+03.05.2024 00:31:00;REMOTE_ADDR;5.255.231.90
+03.05.2024 00:31:00;REMOTE_PORT;64700
+03.05.2024 00:31:00;SERVER_PORT;443
+03.05.2024 00:31:00;SERVER_NAME;refboard.na4u.ru
+03.05.2024 00:31:00;HTTP_HOST;refboard.na4u.ru
+03.05.2024 00:31:00;HTTP_ACCEPT_ENCODING;gzip,deflate
+03.05.2024 00:31:00;HTTP_USER_AGENT;Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0
+03.05.2024 00:31:00;HTTP_FROM;support@search.yandex.ru
+03.05.2024 00:31:00;HTTP_ACCEPT;text/html
+03.05.2024 00:31:00;HTTP_CONNECTION;keep-alive
+03.05.2024 00:31:00;wsgi.input;<uwsgi._Input object at 0x7faa9033f240>
+03.05.2024 00:31:00;wsgi.file_wrapper;<built-in function uwsgi_sendfile>
+03.05.2024 00:31:00;wsgi.version;(1, 0)
+03.05.2024 00:31:00;wsgi.errors;<_io.TextIOWrapper name=2 mode='w' encoding='UTF-8'>
+03.05.2024 00:31:00;wsgi.run_once;False
+03.05.2024 00:31:00;wsgi.multithread;True
+03.05.2024 00:31:00;wsgi.multiprocess;True
+03.05.2024 00:31:00;wsgi.url_scheme;https
+03.05.2024 00:31:00;uwsgi.version;b'2.0.18-debian'
+03.05.2024 00:31:00;uwsgi.core;0
+03.05.2024 00:31:00;uwsgi.node;b'h30.netangels.ru'
+17.06.2024 12:55:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828232','396902319','Andrey','Ustyantsev','T_473','1718610955','137828232_1718610955.jpg','','','','','','','','AgACAgIAAxkBAAID8GZv7As_KKb8-g1s2GYZMLK9H7MoAALQ1zEbU5WASwyLf2w4Ynz2AQADAgADeQADNQQ','test_chat_bot',now()+ interval '5 hour')
+17.06.2024 12:56:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828233','396902319','Andrey','Ustyantsev','T_473','1718610974','137828233_1718610974.jpg','','','','','','','','AgACAgIAAxkBAAID8mZv7B4KK3LqjqbvyDyTXZYM3EC_AALR1zEbU5WAS7v4sexSyWbaAQADAgADeQADNQQ','test_chat_bot',now()+ interval '5 hour')
+17.06.2024 12:56:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828234','396902319','Andrey','Ustyantsev','T_473','1718610981','137828234_1718610981.jpg','','','','','','','','AgACAgIAAxkBAAID9GZv7CUwXMVdTb_qnm0sSBZFAwIsAALS1zEbU5WAS7MmOP1jSvGDAQADAgADeAADNQQ','test_chat_bot',now()+ interval '5 hour')
+17.06.2024 12:56:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828235','396902319','Andrey','Ustyantsev','T_473','1718610986','137828235_1718610986.jpg','','','','','','','','AgACAgIAAxkBAAID9mZv7CpC1MmzLaLXfBXsJKnymOSlAALT1zEbU5WAS8qKPVh1tFdmAQADAgADeAADNQQ','test_chat_bot',now()+ interval '5 hour')
+17.06.2024 12:56:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828236','396902319','Andrey','Ustyantsev','T_473','1718610991','137828236_1718610991.jpg','','','','','','','','AgACAgIAAxkBAAID-GZv7C6UsjKHaJAbzfjIlahTEFrQAALU1zEbU5WASyjTGQlljDb2AQADAgADeAADNQQ','test_chat_bot',now()+ interval '5 hour')
+17.06.2024 12:56:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828237','396902319','Andrey','Ustyantsev','T_473','1718610995','137828237_1718610995.jpg','','','','','','','','AgACAgIAAxkBAAID-mZv7DN1ITZ5SKEUD3E8qJo_mVbtAALV1zEbU5WAS2Mr92C-uYtZAQADAgADeAADNQQ','test_chat_bot',now()+ interval '5 hour')
+17.06.2024 12:56:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828238','396902319','Andrey','Ustyantsev','T_473','1718611000','137828238_1718611000.jpg','','','','','','','','AgACAgIAAxkBAAID_GZv7Dj_Tv1ePJWfNxk_iKDZNiQhAALW1zEbU5WAS6sCEYk1F-jtAQADAgADeAADNQQ','test_chat_bot',now()+ interval '5 hour')
+17.06.2024 12:56:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828239','396902319','Andrey','Ustyantsev','T_473','1718611005','137828239_1718611005.jpg','','','','','','','','AgACAgIAAxkBAAID_mZv7D0JrZEqQ07jAjPjr_wpfPM_AALX1zEbU5WAS7sLESMHKNPPAQADAgADeAADNQQ','test_chat_bot',now()+ interval '5 hour')
+17.07.2024 01:35:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828240','396902319','Andrey','Ustyantsev','T_473','1721162133','137828240_1721162133.jpg','Приятный проект от Özgenur Korlu, посвященный Ван Гогу! 
+
+Конечно же, с подсолнухами 🥰
+
+На бехансе можно глянуть тут:
+https://www.behance.net/gallery/203276981/Petal-by-petal-Van-Goghs-Last-Five-Years-in-Letters','','','','Дата-арт','dataart11','channel','AgACAgIAAxkBAAIEAAFmltmVzALo0hgo06Ble_AdccXeigACeeUxGzk9sEilv96OcYn2vwEAAwIAA3gAAzUE','test_chat_bot',now()+ interval '5 hour')
+17.07.2024 01:35:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828241','396902319','Andrey','Ustyantsev','T_473','1721162133','137828241_1721162133.jpg','','','','','Дата-арт','dataart11','channel','AgACAgIAAxkBAAIEAWaW2ZUpINw5H2f4pbyWpXvvpkREAAJ65TEbOT2wSDvrNHHzpK1WAQADAgADeQADNQQ','test_chat_bot',now()+ interval '5 hour')
+02.08.2024 22:10:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828242','396902319','Andrey','Ustyantsev','T_473','1722618632','137828242_1722618632.jpg','Featured on: 01-Aug-2024
+
+Title: Van Gogh Letters
+
+Description: This #VizOfTheDay by Tableau Visionary Annabelle Rincon artfully visualizes the letters Vincent van Gogh exchanged throughout his life. Featuring her own drawing, the viz explores the top three themes—family, time, and painting—and highlights the word count devoted to these topics.
+
+Author: Annabelle Rincon
+
+Link to dashboard: https://public.tableau.com/app/profile/rincon/viz/VanGoghLetters/VanGoghStory
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIEBGatEwi801upzAPshF06O7dclrkDAALztDEb7N5cUeAY4cRzkEa9AQADAgADdwADNQQ','test_chat_bot',now()+ interval '5 hour')
+10.10.2024 19:36:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828244','396902319','Andrey','Ustyantsev','T_473','1728570959','137828244_1728570959.jpg','Financial Times пишут, что доходы молодых женщин в Великобритании впервые превысили доходы мужчин того же возраста.
+
+Автор материала считает, что эту тенденцию вряд ли можно воспринимать как радостную весть и победу в сфере гендерного равенства. Дело в том, что исторический разрыв в сфере высшего образования в странах Европы — девушки всегда получали его чаще — в последние годы драматически увеличился.
+
+Сейчас женщины чаще получают высшее образование, чаще присматривают за членами семьи, чаще устраиваются на работу. А мужчины ... чаще не учатся, не работают, имеют серьёзные проблемы со здоровьем и всё больше отдаляются от общества.
+
+В материале не раскрыты причины такого явления, а вообще было бы интересно почитать экспертный разбор — почему так происходит? Особенно если речь идёт о молодых людях. Если находили что-то любопытное на эту тему, кидайте в комментари!
+
+https://www.ft.com/content/17606f25-1d03-4f37-b7f4-f39989af9bde?sharetype=blocked
+
+Вероятно, для просмотра потребуется подписка, режим инкогнито или расширение Bypass Paywalls','https://github.com/bpc-clone/bypass-paywalls-chrome-clean','','','data.csv','data_csv','channel','AgACAgIAAxkBAAIEBmcH5k8xILGHjSpIiWhyUmN1eQjlAAJl4DEbiYzZS46_U5Msdb_MAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+10.10.2024 19:38:00;INSERT INTO notes                                     (id_graph,                                      notes,                                      source,                                      dt) VALUES ('360','Тестовая заметка','site',now()+ interval '5 hour')
+17.10.2024 20:03:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828245','396902319','Andrey','Ustyantsev','T_473','1729177383','137828245_1729177383.jpg','Featured on: 17-Oct-2024
+
+Title: The Color of Sleep
+
+Description: Are kids getting enough sleep? Find out in this #VizOfTheDay by Tableau Visionary Prasann Prem, showcasing the sleep fulfillment rate for students from kindergarten to 12th grade. Explore this #MakeoverMonday viz.
+
+Author: Prasann Prem
+
+Link to dashboard: https://public.tableau.com/app/profile/prasann.prem/viz/TheColorofSleep/TheColorofSleep
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIECGcRJyeplcUoBYspIwUWBK_OyWgXAAI7tjEbFEWMUBJTMxJKgRyGAQADAgADdwADNgQ','test_chat_bot',now()+ interval '5 hour')
+30.10.2024 18:11:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828246','396902319','Andrey','Ustyantsev','T_473','1730293884','137828246_1730293884.jpg','Featured on: 30-Oct-2024
+
+Title: KPI Cards Visual
+
+Description: Unleashing the power of KPI cards. From area to bar and stacked bar charts, explore this #VizOfTheDay by Anastasiia Kuznetsova visualizes key sales metrics.
+
+Author: Anastasiia Kuznetsova
+
+Link to dashboard: https://public.tableau.com/app/profile/nastengraph/viz/KPICardsVisual/KPICards
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIECmciMHzuVdY9QGxdf9Bwzkz9YLmLAALxtTEbwDsVUVRrTvoWTDgwAQADAgADdwADNgQ','test_chat_bot',now()+ interval '5 hour')
+02.11.2024 15:54:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828247','396902319','Andrey','Ustyantsev','T_473','1730544883','137828247_1730544883.jpg','Максимальный размер выплат за больничный у россиян будет увеличен с ₽4 тысяч до ₽5,7 тысяч в 2025-м, в 2026 году — до ₽6,8 тысяч.
+
+Гуляем, коллеги?','','','','мы вам перезвоним','ca11_you','channel','AgACAgIAAxkBAAIEDGcmBPPy5AUrTEWcfOoVIc_6zXxhAAIw6TEbiSEoSW28wGVcQp-0AQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+14.11.2024 22:58:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828248','396902319','Andrey','Ustyantsev','T_473','1731607094','137828248_1731607094.jpg','Вы тоже так можете!
+
+Весь год мы ведем обучение для одного банка, где аналитическому мышлению и визуализции решили обучить ВСЕХ! Каждый месяц по 100 человек, несколько групп, в которых многие честно говорят 
+"ну не умею я рисовать..."
+
+На пятом занятии мы даем наш классический кейс - резюме годового отчета. У вас есть текст, и нужно нарисовать в power point макет - постановку задачи для аналитика. То есть продумать KPI, их визуализацию с позиции руководителя. 
+
+🔥 Горжусь каждым, кто участвует в этом процессе: от студентов, которые не боятся ошибаться и настойчиво дорабатывают свои проекты... до тренеров, которые делают все возможное, чтобы поддержать и направить их усилия. 
+
+Ставьте ❤️, если гордитесь нашими студентами так же, как и я!','','','','Клуб анонимных аналитиков','analyst_club','channel','AgACAgIAAxkBAAIEDmc2OjYzgZRbrdUvzCF0fjX2aKNQAAJ57jEbkQKwSRm1Q46rcVPxAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+14.11.2024 22:58:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828249','396902319','Andrey','Ustyantsev','T_473','1731607094','137828249_1731607094.jpg','','','','','Клуб анонимных аналитиков','analyst_club','channel','AgACAgIAAxkBAAIED2c2Ojb4kn89L0dy1w_XhwbQk1hUAAJ87jEbkQKwSauSBCjOLvuZAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+14.11.2024 22:58:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828250','396902319','Andrey','Ustyantsev','T_473','1731607094','137828250_1731607094.jpg','','','','','Клуб анонимных аналитиков','analyst_club','channel','AgACAgIAAxkBAAIEEGc2OjaZRIXSn-LXivS-9Hg3kxm4AAJ77jEbkQKwSb6b3cJvyijtAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+14.11.2024 22:58:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828251','396902319','Andrey','Ustyantsev','T_473','1731607094','137828251_1731607094.jpg','','','','','Клуб анонимных аналитиков','analyst_club','channel','AgACAgIAAxkBAAIEEWc2OjY6P0j3ngMgR0KdyjMC0YURAAJ97jEbkQKwSVr6mV3d2ayxAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+14.11.2024 22:58:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828252','396902319','Andrey','Ustyantsev','T_473','1731607094','137828252_1731607094.jpg','','','','','Клуб анонимных аналитиков','analyst_club','channel','AgACAgIAAxkBAAIEEmc2OjYGXmE1IVHCg4T0jYhYAZgWAAJ67jEbkQKwSd5LyniAMazxAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+14.11.2024 22:58:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828253','396902319','Andrey','Ustyantsev','T_473','1731607094','137828253_1731607094.jpg','','','','','Клуб анонимных аналитиков','analyst_club','channel','AgACAgIAAxkBAAIEE2c2OjasPELQw9Ojg9ugpNQrE_z3AAJ-7jEbkQKwSXcyc75cRMJeAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+30.12.2024 20:41:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828254','396902319','Andrey','Ustyantsev','T_473','1735573288','137828254_1735573288.jpg','Featured on: 11-Dec-2024
+
+Title: Helpdesk #RWFD
+
+Description: A data-driven look at help desk performance. This #VizOfTheDay by Ann Pregler tracks help desk requests with bar charts and tables, part of the Community Project Real World Fake Data.
+
+Author: Ann Pregler
+
+Link to dashboard: https://public.tableau.com/app/profile/ann.pregler/viz/Helpdesk_17323969773640/TicketsDashboard
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIEGmdyvyjAuryiiPLXEyGsnTyKmKXoAAL6tjEb2rHVUnYeqdANrUXvAQADAgADdwADNgQ','test_chat_bot',now()+ interval '5 hour')
+30.12.2024 20:41:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828255','396902319','Andrey','Ustyantsev','T_473','1735573307','137828255_1735573307.jpg','Featured on: 17-Dec-2024
+
+Title: Sales Dashboard
+
+Description: Business dashboards for decision-making. This #VizOfTheDay by Tobiloba Babajide visualizes sales KPIs with maps, line charts, area charts, and more. Explore the viz on Tableau Public.
+
+Author: Tobiloba Babajide
+
+Link to dashboard: https://public.tableau.com/app/profile/tobiloba.babajide/viz/SalesDashboard_17329870588250/SalesDasboard
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIEHGdyvzt0vrtB2SAUKT048wiRZNdfAAK6tjEb7IEMU3PG7jpbAAE9EQEAAwIAA3cAAzYE','test_chat_bot',now()+ interval '5 hour')
+30.12.2024 20:42:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828256','396902319','Andrey','Ustyantsev','T_473','1735573319','137828256_1735573319.jpg','Featured on: 19-Dec-2024
+
+Title: Cryptocurrency Dashboard
+
+Description: Top 20 cryptocurrencies, visualized.This #VizOfTheDay by Victory Omovrah uses area, bar, and whisker charts to highlight prices, volumes, and volatility. Inspired by Samuel Parsons, Chimdi Nwosu, and Maureen Okonkwo.
+
+Author: Victory Omovrah
+
+Link to dashboard: https://public.tableau.com/app/profile/victory4333/viz/cryptocurrency_dashboard/CryptocurrencyDashboard
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIEHmdyv0eCRgTaKwnLH919HNqS4A_1AALntjEbDoslU-_VCwqmZe04AQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+30.12.2024 20:42:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828257','396902319','Andrey','Ustyantsev','T_473','1735573332','137828257_1735573332.jpg','Featured on: 27-Dec-2024
+
+Title: Call Center Scorecard | #RWFD
+
+Description: Tracking call center KPIs with this #VizOfTheDay by Andreea Scintei. Explore this business dashboard, featuring line charts, bullet graphs, and more to visualize efficiency and performance.
+
+Author: Andreea Scintei
+
+Link to dashboard: https://public.tableau.com/app/profile/andreea.scintei/viz/CallCenterScorecardRWFD/CCScorecard
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIEIGdyv1T7fOGHKhuXEeOIlTUrAAEVwAAC8rYxG2hJdFNh_f8UtdQBZAEAAwIAA3cAAzYE','test_chat_bot',now()+ interval '5 hour')
+31.01.2025 00:27:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828258','396902319','Andrey','Ustyantsev','T_473','1738265241','137828258_1738265241.jpg','Featured on: 03-Jan-2025
+
+Title: Superstore KPIs Inspiration
+
+Description: Reimagining KPIs with this #VizOfTheDay by Adrian Zinovei. Using the Superstore dataset, Adrian explores innovative ways to visualize key performance indicators with KPI cards and bar charts.
+
+Author: Adrian Zinovei
+
+Link to dashboard: https://public.tableau.com/app/profile/adrian.zinovei/viz/SuperstoreKPIsInspiration/Summary
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIEImeb0pkrO1eUoRjpjOanuOm1bNBMAALgtjEb6gjFU-o4NpOqtwUIAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+31.01.2025 00:27:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828259','396902319','Andrey','Ustyantsev','T_473','1738265257','137828259_1738265257.jpg','Featured on: 09-Jan-2025
+
+Title: OKRs Overview
+
+Description: Visualizing objectives and key results with design and inclusivity. In this #VizOfTheDay, Nir Smilga replaces colored bars with circle indicators and offers a color blind mode version for accessibility. Explore the viz.&nbsp;
+
+Author: Nir Smilga‎
+
+Link to dashboard: https://public.tableau.com/app/profile/nir.smilga/viz/OKRs_17336477924050/OKRsOverview
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIEJGeb0qn01w9-pdj0oi0i9ZHpC8p7AAJMtzEbfQH9U8B5Iepg46pgAQADAgADdwADNgQ','test_chat_bot',now()+ interval '5 hour')
+31.01.2025 00:27:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828260','396902319','Andrey','Ustyantsev','T_473','1738265279','137828260_1738265279.jpg','Featured on: 15-Jan-2025
+
+Title: Superstore Bento Box KPIs
+
+Description: Bento box, but make it data.&nbsp;Tamás Varga uses the Superstore dataset to showcase sales performance in this #VizOfTheDay. Check out this compact, and insightful business dashboard.
+
+Author: Tamás Varga
+
+Link to dashboard: https://public.tableau.com/app/profile/tam.s.varga/viz/Superstore-Bento-Box/PerformanceOverview
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIEJmeb0r4Q34PP3Hae0H2NKDJT7EMOAAKFtjEbAZFFUA9937aUReqWAQADAgADdwADNgQ','test_chat_bot',now()+ interval '5 hour')
+31.01.2025 00:28:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828261','396902319','Andrey','Ustyantsev','T_473','1738265291','137828261_1738265291.jpg','Featured on: 17-Jan-2025
+
+Title: Top 2000 
+
+Description: Featuring Bezier curves and map layers, this #VizOfTheDay by Johan de Groot visualizes the 2,000 most popular songs of all time, played on a Dutch annual radio program. Explore the viz in English or Dutch.
+
+Author: Johan de Groot
+
+Link to dashboard: https://public.tableau.com/app/profile/antichaos/viz/Top2000-2024/Top2000
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIEKGeb0svt9De4dblJiTT0StxtxEGeAAKltjEbX_pcUEs9kqWKrnb9AQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+31.01.2025 00:28:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828262','396902319','Andrey','Ustyantsev','T_473','1738265300','137828262_1738265300.jpg','Featured on: 22-Jan-2025
+
+Title: Luke Donovan
+
+Description: Take off into aviation data. This #VizOfTheDay by Luke Donovan visualizes flight trends and status insights with bar charts, a heatmap, and more.&nbsp;Explore this business dashboard.
+
+Author: Luke Donovan
+
+Link to dashboard: https://public.tableau.com/app/profile/luke.donovan/viz/AirportAnalysis_17369475193290/FlightStatusAnalysis
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIEKmeb0tT3_SrxzVNwHwFZAAF0hU-CRQACfLcxG6uvjVDacWC8-KHY1wEAAwIAA3cAAzYE','test_chat_bot',now()+ interval '5 hour')
+31.01.2025 00:28:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828263','396902319','Andrey','Ustyantsev','T_473','1738265306','137828263_1738265306.jpg','Featured on: 23-Jan-2025
+
+Title: Flight Status Analysis
+
+Description: Take off into aviation data. This #VizOfTheDay by Luke Donovan visualizes flight trends and status insights with bar charts, a heatmap, and more.&nbsp;Explore this business dashboard.
+
+Author: Luke Donovan
+
+Link to dashboard: https://public.tableau.com/app/profile/luke.donovan/viz/AirportAnalysis_17369475193290/FlightStatusAnalysis
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIELGeb0trK4GOhFrp15AABbk_FvXeoOwACS7YxG44YlFB_JRtmJOlKEgEAAwIAA3kAAzYE','test_chat_bot',now()+ interval '5 hour')
+31.01.2025 00:28:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828264','396902319','Andrey','Ustyantsev','T_473','1738265314','137828264_1738265314.jpg','Featured on: 24-Jan-2025
+
+Title: One Dashboard A Month Roundup
+
+Description: Explore this #VizOfTheDay by Tobiloba Babajide, showcasing twelve business dashboards build over a year using datasets from Community Project Real World Fake Data #RWFD.
+
+Author: Tobiloba Babajide
+
+Link to dashboard: https://public.tableau.com/app/profile/tobiloba.babajide/viz/OneDashboardAMonthRoundup/ODAM
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIELmeb0uKXKqspUEeRo6c2aWQIlOrkAAJ7tjEb6fGcUFGsoGebRDlZAQADAgADdwADNgQ','test_chat_bot',now()+ interval '5 hour')
+31.01.2025 00:28:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828265','396902319','Andrey','Ustyantsev','T_473','1738265327','137828265_1738265327.jpg','Featured on: 30-Jan-2025
+
+Title: Steam Top 100 Played Games
+
+Description: Explore the top 100 most played Steam games in this #VizOfTheDay by Anna Clara Gatti, featuring a Voronoi Treemap. A #MakeoverMonday entry.
+
+Author: Anna Clara Gatti
+
+Link to dashboard: https://public.tableau.com/app/profile/anna.clara.gatti/viz/MakeoverMonday2025W03/Week3
+
+Credits: Tableau Viz of the Day
+-----------------------------------','https://public.tableau.com/s/viz-of-the-day','','','Tableaus Viz of the Day','vizoftheday','channel','AgACAgQAAxkBAAIEMGeb0u85eYw-BcWyAfsZiVJOpwl4AAIUuDEbtU_lUIckbEDs2cPRAQADAgADdwADNgQ','test_chat_bot',now()+ interval '5 hour')
+13.02.2025 12:35:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828266','396902319','Andrey','Ustyantsev','T_473','1739432145','137828266_1739432145.jpg','Литографии Микеланджело Каетани (Michelangelo Caetani) 1855 года, изображающие ад, рай и в целом мироустройство в «Божественной комедии» Данте.','','','','Designing Numbers','designing_numbers','channel','AgACAgIAAxkBAAIEMmetoNBsBRV6mja1-ym14ofRcxFhAALO7TEbH-xISVbf0MZbvZobAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+13.02.2025 12:35:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828267','396902319','Andrey','Ustyantsev','T_473','1739432145','137828267_1739432145.jpg','','','','','Designing Numbers','designing_numbers','channel','AgACAgIAAxkBAAIEM2etoNAhzWFIUji8yKS23pFqpHSnAALQ7TEbH-xISahDjo3iSKUZAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+13.02.2025 12:35:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828268','396902319','Andrey','Ustyantsev','T_473','1739432145','137828268_1739432145.jpg','','','','','Designing Numbers','designing_numbers','channel','AgACAgIAAxkBAAIENGetoNAjt6bNJ4V269KTItei_2iiAALS7TEbH-xISWTMizItFDiXAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+13.02.2025 12:35:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828269','396902319','Andrey','Ustyantsev','T_473','1739432145','137828269_1739432145.jpg','','','','','Designing Numbers','designing_numbers','channel','AgACAgIAAxkBAAIENWetoNCpgE0zH988Etk3hvBd2yF1AALU7TEbH-xISdOo6asMY3_bAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+13.02.2025 12:35:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828270','396902319','Andrey','Ustyantsev','T_473','1739432145','137828270_1739432145.jpg','','','','','Designing Numbers','designing_numbers','channel','AgACAgIAAxkBAAIENmetoNDEix_qWJYkMayZPvr6qG6qAALV7TEbH-xISaZH8dT1S5OKAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+13.02.2025 12:35:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828271','396902319','Andrey','Ustyantsev','T_473','1739432155','137828271_1739432155.jpg','Недавно я писала про проект о том, насколько доступно московское метро. А вот симпатичный эксперимент картографа Jules Grandin про доступность парижского. На карте каждое здание города соединено с ближайшей станцией: чем темнее связь, тем больше расстояние.','https://www.linkedin.com/posts/jules-grandin-60309552_quelle-est-la-station-de-m%C3%A9tro-la-ugcPost-7293542493906698240-4CKj','','','Designing Numbers','designing_numbers','channel','AgACAgIAAxkBAAIEPGetoNuggeEuNA59CcpgorhWMLO3AALT8TEb0w1YSRGamHFVeTPKAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+13.02.2025 12:35:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828272','396902319','Andrey','Ustyantsev','T_473','1739432155','137828272_1739432155.jpg','','','','','Designing Numbers','designing_numbers','channel','AgACAgIAAxkBAAIEPWetoNtGkExf5dM7kk31SFYlxZwyAALU8TEb0w1YSRWZ47-Ch9nsAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+13.02.2025 12:35:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828273','396902319','Andrey','Ustyantsev','T_473','1739432155','137828273_1739432155.jpg','','','','','Designing Numbers','designing_numbers','channel','AgACAgIAAxkBAAIEPmetoNucCz5QKatgl8K5g9YQcFPfAALV8TEb0w1YSalcnlcopVGUAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+06.03.2025 16:57:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828274','396902319','Andrey','Ustyantsev','T_473','1741262269','137828274_1741262269.jpg','Необычная визуализация от сотрудницы Datawrapper
+
+Она записывала, какие овощи приходят к ней по подписочному сервису в течение года, и в итоге сделала об этом график.
+
+Поражает, что такая нестандартная визуализация собрана внутри сервиса — и по сути это кастомизированный Scatter Plot.
+
+Картинка длинная и интерактивная, так что вдохновиться приходите сюда:
+https://blog.datawrapper.de/my-vegetable-subscription/','','','','data.csv','data_csv','channel','AgACAgIAAxkBAAIEQmfJjb2aY354n14uP3oqtql04mprAALN7TEbxAroSb2O7nJXW9rMAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+10.07.2025 20:46:00;----------------------------------------------------------------------------------
+10.07.2025 20:46:00;QUERY_STRING;
+10.07.2025 20:46:00;REQUEST_METHOD;HEAD
+10.07.2025 20:46:00;CONTENT_TYPE;
+10.07.2025 20:46:00;CONTENT_LENGTH;
+10.07.2025 20:46:00;REQUEST_URI;/
+10.07.2025 20:46:00;PATH_INFO;/
+10.07.2025 20:46:00;DOCUMENT_ROOT;/usr/share/nginx/html
+10.07.2025 20:46:00;SERVER_PROTOCOL;HTTP/1.1
+10.07.2025 20:46:00;REQUEST_SCHEME;https
+10.07.2025 20:46:00;HTTPS;on
+10.07.2025 20:46:00;REMOTE_ADDR;91.201.52.155
+10.07.2025 20:46:00;REMOTE_PORT;44950
+10.07.2025 20:46:00;SERVER_PORT;443
+10.07.2025 20:46:00;SERVER_NAME;refboard.na4u.ru
+10.07.2025 20:46:00;HTTP_ACCEPT_ENCODING;identity
+10.07.2025 20:46:00;HTTP_HOST;refboard.na4u.ru
+10.07.2025 20:46:00;wsgi.input;<uwsgi._Input object at 0x7f8d1eb12240>
+10.07.2025 20:46:00;wsgi.file_wrapper;<built-in function uwsgi_sendfile>
+10.07.2025 20:46:00;wsgi.version;(1, 0)
+10.07.2025 20:46:00;wsgi.errors;<_io.TextIOWrapper name=2 mode='w' encoding='UTF-8'>
+10.07.2025 20:46:00;wsgi.run_once;False
+10.07.2025 20:46:00;wsgi.multithread;True
+10.07.2025 20:46:00;wsgi.multiprocess;True
+10.07.2025 20:46:00;wsgi.url_scheme;https
+10.07.2025 20:46:00;uwsgi.version;b'2.0.18-debian'
+10.07.2025 20:46:00;uwsgi.core;0
+10.07.2025 20:46:00;uwsgi.node;b'h30.netangels.ru'
+10.07.2025 20:49:00;----------------------------------------------------------------------------------
+10.07.2025 20:49:00;QUERY_STRING;
+10.07.2025 20:49:00;REQUEST_METHOD;HEAD
+10.07.2025 20:49:00;CONTENT_TYPE;
+10.07.2025 20:49:00;CONTENT_LENGTH;
+10.07.2025 20:49:00;REQUEST_URI;/
+10.07.2025 20:49:00;PATH_INFO;/
+10.07.2025 20:49:00;DOCUMENT_ROOT;/usr/share/nginx/html
+10.07.2025 20:49:00;SERVER_PROTOCOL;HTTP/1.1
+10.07.2025 20:49:00;REQUEST_SCHEME;https
+10.07.2025 20:49:00;HTTPS;on
+10.07.2025 20:49:00;REMOTE_ADDR;91.201.52.155
+10.07.2025 20:49:00;REMOTE_PORT;57428
+10.07.2025 20:49:00;SERVER_PORT;443
+10.07.2025 20:49:00;SERVER_NAME;refboard.na4u.ru
+10.07.2025 20:49:00;HTTP_ACCEPT_ENCODING;identity
+10.07.2025 20:49:00;HTTP_HOST;refboard.na4u.ru
+10.07.2025 20:49:00;wsgi.input;<uwsgi._Input object at 0x7f742ce79240>
+10.07.2025 20:49:00;wsgi.file_wrapper;<built-in function uwsgi_sendfile>
+10.07.2025 20:49:00;wsgi.version;(1, 0)
+10.07.2025 20:49:00;wsgi.errors;<_io.TextIOWrapper name=2 mode='w' encoding='UTF-8'>
+10.07.2025 20:49:00;wsgi.run_once;False
+10.07.2025 20:49:00;wsgi.multithread;True
+10.07.2025 20:49:00;wsgi.multiprocess;True
+10.07.2025 20:49:00;wsgi.url_scheme;https
+10.07.2025 20:49:00;uwsgi.version;b'2.0.18-debian'
+10.07.2025 20:49:00;uwsgi.core;0
+10.07.2025 20:49:00;uwsgi.node;b'h30.netangels.ru'
+10.07.2025 20:54:00;----------------------------------------------------------------------------------
+10.07.2025 20:54:00;QUERY_STRING;
+10.07.2025 20:54:00;REQUEST_METHOD;POST
+10.07.2025 20:54:00;CONTENT_TYPE;application/json
+10.07.2025 20:54:00;CONTENT_LENGTH;1641
+10.07.2025 20:54:00;REQUEST_URI;/tg_bot
+10.07.2025 20:54:00;PATH_INFO;/tg_bot
+10.07.2025 20:54:00;DOCUMENT_ROOT;/usr/share/nginx/html
+10.07.2025 20:54:00;SERVER_PROTOCOL;HTTP/1.1
+10.07.2025 20:54:00;REQUEST_SCHEME;https
+10.07.2025 20:54:00;HTTPS;on
+10.07.2025 20:54:00;REMOTE_ADDR;91.108.5.117
+10.07.2025 20:54:00;REMOTE_PORT;29208
+10.07.2025 20:54:00;SERVER_PORT;443
+10.07.2025 20:54:00;SERVER_NAME;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_HOST;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_CONTENT_TYPE;application/json
+10.07.2025 20:54:00;HTTP_CONTENT_LENGTH;1641
+10.07.2025 20:54:00;HTTP_CONNECTION;keep-alive
+10.07.2025 20:54:00;HTTP_ACCEPT_ENCODING;gzip, deflate
+10.07.2025 20:54:00;wsgi.input;<uwsgi._Input object at 0x7f742ce79240>
+10.07.2025 20:54:00;wsgi.file_wrapper;<built-in function uwsgi_sendfile>
+10.07.2025 20:54:00;wsgi.version;(1, 0)
+10.07.2025 20:54:00;wsgi.errors;<_io.TextIOWrapper name=2 mode='w' encoding='UTF-8'>
+10.07.2025 20:54:00;wsgi.run_once;False
+10.07.2025 20:54:00;wsgi.multithread;True
+10.07.2025 20:54:00;wsgi.multiprocess;True
+10.07.2025 20:54:00;wsgi.url_scheme;https
+10.07.2025 20:54:00;uwsgi.version;b'2.0.18-debian'
+10.07.2025 20:54:00;uwsgi.core;0
+10.07.2025 20:54:00;uwsgi.node;b'h30.netangels.ru'
+10.07.2025 20:54:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828286','396902319','Andrey','Ustyantsev','T_473','1752162332','137828286_1752162332.jpg','','','','','Картографическая гостиная 🗺','map_lounge','channel','AgACAgIAAxkBAAIET2hv4BxobZv-P1f_uqh06rtCy3BFAAJe9TEb-T7wSoFYFqxhApFmAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+10.07.2025 20:54:00;----------------------------------------------------------------------------------
+10.07.2025 20:54:00;QUERY_STRING;
+10.07.2025 20:54:00;REQUEST_METHOD;POST
+10.07.2025 20:54:00;CONTENT_TYPE;application/json
+10.07.2025 20:54:00;CONTENT_LENGTH;7383
+10.07.2025 20:54:00;REQUEST_URI;/tg_bot
+10.07.2025 20:54:00;PATH_INFO;/tg_bot
+10.07.2025 20:54:00;DOCUMENT_ROOT;/usr/share/nginx/html
+10.07.2025 20:54:00;SERVER_PROTOCOL;HTTP/1.1
+10.07.2025 20:54:00;REQUEST_SCHEME;https
+10.07.2025 20:54:00;HTTPS;on
+10.07.2025 20:54:00;REMOTE_ADDR;91.108.5.117
+10.07.2025 20:54:00;REMOTE_PORT;29208
+10.07.2025 20:54:00;SERVER_PORT;443
+10.07.2025 20:54:00;SERVER_NAME;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_HOST;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_CONTENT_TYPE;application/json
+10.07.2025 20:54:00;HTTP_CONTENT_LENGTH;7383
+10.07.2025 20:54:00;HTTP_CONNECTION;keep-alive
+10.07.2025 20:54:00;HTTP_ACCEPT_ENCODING;gzip, deflate
+10.07.2025 20:54:00;wsgi.input;<uwsgi._Input object at 0x7f742ce79240>
+10.07.2025 20:54:00;wsgi.file_wrapper;<built-in function uwsgi_sendfile>
+10.07.2025 20:54:00;wsgi.version;(1, 0)
+10.07.2025 20:54:00;wsgi.errors;<_io.TextIOWrapper name=2 mode='w' encoding='UTF-8'>
+10.07.2025 20:54:00;wsgi.run_once;False
+10.07.2025 20:54:00;wsgi.multithread;True
+10.07.2025 20:54:00;wsgi.multiprocess;True
+10.07.2025 20:54:00;wsgi.url_scheme;https
+10.07.2025 20:54:00;uwsgi.version;b'2.0.18-debian'
+10.07.2025 20:54:00;uwsgi.core;0
+10.07.2025 20:54:00;uwsgi.node;b'h30.netangels.ru'
+10.07.2025 20:54:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828287','396902319','Andrey','Ustyantsev','T_473','1752162424','137828287_1752162424.jpg','Городленная (Cityverse)
+
+Марко Эрнандез (Marco Hernandez), графический редактор Нью-Йорк Таймз придумал вот такой вариант визуализции застройки и землепользования городов в виде планет, или как он их называет микро-вселенные.
+
+Площадь вселенных около 80 км, на картинках помимо высотности застройки и водных объектов могут встретиться парки, скверы и прочие зеленые зоны соответствующим цветом.
+
+На мой взгляд интересный и залипательный вариант визуализации, отдающий антиутопическим вайбом, особенно, когда смотришь на высокоплотные города. После таких картинок нет особо желания в них находиться. В общем, простор для воздействия на зрителя довольно широкий, что очень круто!
+
+❓А как вам такой вариант визуализации?
+
+P.S. По технологии алгоритм построения примерно следующий:
+1. Берутся данные о застройке GHSL и о землепользовании Sentinel и формируются растры в QGIS.
+2. Затем они загружаются в Cinema 4D, где и формируются как раз планеты.
+3. Надписи оформляются в Adobe Illustrator (либо в другом векторном редакторе).
+
+Увидеть больше картинок можете на сайте блога Марко','https://mhinfographics.github.io/maps','','','Картографическая гостиная 🗺','map_lounge','channel','AgACAgIAAxkBAAIEUGhv4HgJIwX6keg834Yg8gcxHMaqAAJb9TEb-T7wSs_Gmjqhfz2fAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+10.07.2025 20:54:00;----------------------------------------------------------------------------------
+10.07.2025 20:54:00;QUERY_STRING;
+10.07.2025 20:54:00;REQUEST_METHOD;POST
+10.07.2025 20:54:00;CONTENT_TYPE;application/json
+10.07.2025 20:54:00;CONTENT_LENGTH;1677
+10.07.2025 20:54:00;REQUEST_URI;/tg_bot
+10.07.2025 20:54:00;PATH_INFO;/tg_bot
+10.07.2025 20:54:00;DOCUMENT_ROOT;/usr/share/nginx/html
+10.07.2025 20:54:00;SERVER_PROTOCOL;HTTP/1.1
+10.07.2025 20:54:00;REQUEST_SCHEME;https
+10.07.2025 20:54:00;HTTPS;on
+10.07.2025 20:54:00;REMOTE_ADDR;91.108.5.117
+10.07.2025 20:54:00;REMOTE_PORT;29208
+10.07.2025 20:54:00;SERVER_PORT;443
+10.07.2025 20:54:00;SERVER_NAME;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_HOST;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_CONTENT_TYPE;application/json
+10.07.2025 20:54:00;HTTP_CONTENT_LENGTH;1677
+10.07.2025 20:54:00;HTTP_CONNECTION;keep-alive
+10.07.2025 20:54:00;HTTP_ACCEPT_ENCODING;gzip, deflate
+10.07.2025 20:54:00;wsgi.input;<uwsgi._Input object at 0x7f742ce79240>
+10.07.2025 20:54:00;wsgi.file_wrapper;<built-in function uwsgi_sendfile>
+10.07.2025 20:54:00;wsgi.version;(1, 0)
+10.07.2025 20:54:00;wsgi.errors;<_io.TextIOWrapper name=2 mode='w' encoding='UTF-8'>
+10.07.2025 20:54:00;wsgi.run_once;False
+10.07.2025 20:54:00;wsgi.multithread;True
+10.07.2025 20:54:00;wsgi.multiprocess;True
+10.07.2025 20:54:00;wsgi.url_scheme;https
+10.07.2025 20:54:00;uwsgi.version;b'2.0.18-debian'
+10.07.2025 20:54:00;uwsgi.core;1
+10.07.2025 20:54:00;uwsgi.node;b'h30.netangels.ru'
+10.07.2025 20:54:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828288','396902319','Andrey','Ustyantsev','T_473','1752162424','137828288_1752162424.jpg','','','','','Картографическая гостиная 🗺','map_lounge','channel','AgACAgIAAxkBAAIEUWhv4HjWgfK8NKGDf1mLz0ce3G3WAAJc9TEb-T7wSlgnohF7QP_WAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+10.07.2025 20:54:00;----------------------------------------------------------------------------------
+10.07.2025 20:54:00;QUERY_STRING;
+10.07.2025 20:54:00;REQUEST_METHOD;POST
+10.07.2025 20:54:00;CONTENT_TYPE;application/json
+10.07.2025 20:54:00;CONTENT_LENGTH;1678
+10.07.2025 20:54:00;REQUEST_URI;/tg_bot
+10.07.2025 20:54:00;PATH_INFO;/tg_bot
+10.07.2025 20:54:00;DOCUMENT_ROOT;/usr/share/nginx/html
+10.07.2025 20:54:00;SERVER_PROTOCOL;HTTP/1.1
+10.07.2025 20:54:00;REQUEST_SCHEME;https
+10.07.2025 20:54:00;HTTPS;on
+10.07.2025 20:54:00;REMOTE_ADDR;91.108.5.117
+10.07.2025 20:54:00;REMOTE_PORT;29208
+10.07.2025 20:54:00;SERVER_PORT;443
+10.07.2025 20:54:00;SERVER_NAME;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_HOST;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_CONTENT_TYPE;application/json
+10.07.2025 20:54:00;HTTP_CONTENT_LENGTH;1678
+10.07.2025 20:54:00;HTTP_CONNECTION;keep-alive
+10.07.2025 20:54:00;HTTP_ACCEPT_ENCODING;gzip, deflate
+10.07.2025 20:54:00;wsgi.input;<uwsgi._Input object at 0x7f742ce79240>
+10.07.2025 20:54:00;wsgi.file_wrapper;<built-in function uwsgi_sendfile>
+10.07.2025 20:54:00;wsgi.version;(1, 0)
+10.07.2025 20:54:00;wsgi.errors;<_io.TextIOWrapper name=2 mode='w' encoding='UTF-8'>
+10.07.2025 20:54:00;wsgi.run_once;False
+10.07.2025 20:54:00;wsgi.multithread;True
+10.07.2025 20:54:00;wsgi.multiprocess;True
+10.07.2025 20:54:00;wsgi.url_scheme;https
+10.07.2025 20:54:00;uwsgi.version;b'2.0.18-debian'
+10.07.2025 20:54:00;uwsgi.core;0
+10.07.2025 20:54:00;uwsgi.node;b'h30.netangels.ru'
+10.07.2025 20:54:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828289','396902319','Andrey','Ustyantsev','T_473','1752162424','137828289_1752162424.jpg','','','','','Картографическая гостиная 🗺','map_lounge','channel','AgACAgIAAxkBAAIEUmhv4HgxNfo7rT0IcoGSbUJ9wM6bAAJd9TEb-T7wSk0MSzlRbBCoAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+10.07.2025 20:54:00;----------------------------------------------------------------------------------
+10.07.2025 20:54:00;QUERY_STRING;
+10.07.2025 20:54:00;REQUEST_METHOD;POST
+10.07.2025 20:54:00;CONTENT_TYPE;application/json
+10.07.2025 20:54:00;CONTENT_LENGTH;1678
+10.07.2025 20:54:00;REQUEST_URI;/tg_bot
+10.07.2025 20:54:00;PATH_INFO;/tg_bot
+10.07.2025 20:54:00;DOCUMENT_ROOT;/usr/share/nginx/html
+10.07.2025 20:54:00;SERVER_PROTOCOL;HTTP/1.1
+10.07.2025 20:54:00;REQUEST_SCHEME;https
+10.07.2025 20:54:00;HTTPS;on
+10.07.2025 20:54:00;REMOTE_ADDR;91.108.5.117
+10.07.2025 20:54:00;REMOTE_PORT;29208
+10.07.2025 20:54:00;SERVER_PORT;443
+10.07.2025 20:54:00;SERVER_NAME;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_HOST;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_CONTENT_TYPE;application/json
+10.07.2025 20:54:00;HTTP_CONTENT_LENGTH;1678
+10.07.2025 20:54:00;HTTP_CONNECTION;keep-alive
+10.07.2025 20:54:00;HTTP_ACCEPT_ENCODING;gzip, deflate
+10.07.2025 20:54:00;wsgi.input;<uwsgi._Input object at 0x7f742ce79240>
+10.07.2025 20:54:00;wsgi.file_wrapper;<built-in function uwsgi_sendfile>
+10.07.2025 20:54:00;wsgi.version;(1, 0)
+10.07.2025 20:54:00;wsgi.errors;<_io.TextIOWrapper name=2 mode='w' encoding='UTF-8'>
+10.07.2025 20:54:00;wsgi.run_once;False
+10.07.2025 20:54:00;wsgi.multithread;True
+10.07.2025 20:54:00;wsgi.multiprocess;True
+10.07.2025 20:54:00;wsgi.url_scheme;https
+10.07.2025 20:54:00;uwsgi.version;b'2.0.18-debian'
+10.07.2025 20:54:00;uwsgi.core;1
+10.07.2025 20:54:00;uwsgi.node;b'h30.netangels.ru'
+10.07.2025 20:54:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828290','396902319','Andrey','Ustyantsev','T_473','1752162424','137828290_1752162424.jpg','','','','','Картографическая гостиная 🗺','map_lounge','channel','AgACAgIAAxkBAAIET2hv4BxobZv-P1f_uqh06rtCy3BFAAJe9TEb-T7wSoFYFqxhApFmAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+10.07.2025 20:54:00;----------------------------------------------------------------------------------
+10.07.2025 20:54:00;QUERY_STRING;
+10.07.2025 20:54:00;REQUEST_METHOD;POST
+10.07.2025 20:54:00;CONTENT_TYPE;application/json
+10.07.2025 20:54:00;CONTENT_LENGTH;1678
+10.07.2025 20:54:00;REQUEST_URI;/tg_bot
+10.07.2025 20:54:00;PATH_INFO;/tg_bot
+10.07.2025 20:54:00;DOCUMENT_ROOT;/usr/share/nginx/html
+10.07.2025 20:54:00;SERVER_PROTOCOL;HTTP/1.1
+10.07.2025 20:54:00;REQUEST_SCHEME;https
+10.07.2025 20:54:00;HTTPS;on
+10.07.2025 20:54:00;REMOTE_ADDR;91.108.5.117
+10.07.2025 20:54:00;REMOTE_PORT;29208
+10.07.2025 20:54:00;SERVER_PORT;443
+10.07.2025 20:54:00;SERVER_NAME;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_HOST;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_CONTENT_TYPE;application/json
+10.07.2025 20:54:00;HTTP_CONTENT_LENGTH;1678
+10.07.2025 20:54:00;HTTP_CONNECTION;keep-alive
+10.07.2025 20:54:00;HTTP_ACCEPT_ENCODING;gzip, deflate
+10.07.2025 20:54:00;wsgi.input;<uwsgi._Input object at 0x7f742ce79240>
+10.07.2025 20:54:00;wsgi.file_wrapper;<built-in function uwsgi_sendfile>
+10.07.2025 20:54:00;wsgi.version;(1, 0)
+10.07.2025 20:54:00;wsgi.errors;<_io.TextIOWrapper name=2 mode='w' encoding='UTF-8'>
+10.07.2025 20:54:00;wsgi.run_once;False
+10.07.2025 20:54:00;wsgi.multithread;True
+10.07.2025 20:54:00;wsgi.multiprocess;True
+10.07.2025 20:54:00;wsgi.url_scheme;https
+10.07.2025 20:54:00;uwsgi.version;b'2.0.18-debian'
+10.07.2025 20:54:00;uwsgi.core;1
+10.07.2025 20:54:00;uwsgi.node;b'h30.netangels.ru'
+10.07.2025 20:54:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828291','396902319','Andrey','Ustyantsev','T_473','1752162424','137828291_1752162424.jpg','','','','','Картографическая гостиная 🗺','map_lounge','channel','AgACAgIAAxkBAAIEVGhv4Hjvz216ZUUgWn3RtK6UCUYYAAJg9TEb-T7wSm7nfeKcRFCxAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+10.07.2025 20:54:00;----------------------------------------------------------------------------------
+10.07.2025 20:54:00;QUERY_STRING;
+10.07.2025 20:54:00;REQUEST_METHOD;POST
+10.07.2025 20:54:00;CONTENT_TYPE;application/json
+10.07.2025 20:54:00;CONTENT_LENGTH;1498
+10.07.2025 20:54:00;REQUEST_URI;/tg_bot
+10.07.2025 20:54:00;PATH_INFO;/tg_bot
+10.07.2025 20:54:00;DOCUMENT_ROOT;/usr/share/nginx/html
+10.07.2025 20:54:00;SERVER_PROTOCOL;HTTP/1.1
+10.07.2025 20:54:00;REQUEST_SCHEME;https
+10.07.2025 20:54:00;HTTPS;on
+10.07.2025 20:54:00;REMOTE_ADDR;91.108.5.117
+10.07.2025 20:54:00;REMOTE_PORT;29208
+10.07.2025 20:54:00;SERVER_PORT;443
+10.07.2025 20:54:00;SERVER_NAME;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_HOST;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_CONTENT_TYPE;application/json
+10.07.2025 20:54:00;HTTP_CONTENT_LENGTH;1498
+10.07.2025 20:54:00;HTTP_CONNECTION;keep-alive
+10.07.2025 20:54:00;HTTP_ACCEPT_ENCODING;gzip, deflate
+10.07.2025 20:54:00;wsgi.input;<uwsgi._Input object at 0x7f742ce79240>
+10.07.2025 20:54:00;wsgi.file_wrapper;<built-in function uwsgi_sendfile>
+10.07.2025 20:54:00;wsgi.version;(1, 0)
+10.07.2025 20:54:00;wsgi.errors;<_io.TextIOWrapper name=2 mode='w' encoding='UTF-8'>
+10.07.2025 20:54:00;wsgi.run_once;False
+10.07.2025 20:54:00;wsgi.multithread;True
+10.07.2025 20:54:00;wsgi.multiprocess;True
+10.07.2025 20:54:00;wsgi.url_scheme;https
+10.07.2025 20:54:00;uwsgi.version;b'2.0.18-debian'
+10.07.2025 20:54:00;uwsgi.core;0
+10.07.2025 20:54:00;uwsgi.node;b'h30.netangels.ru'
+10.07.2025 20:54:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828292','396902319','Andrey','Ustyantsev','T_473','1752162424','137828292_1752162424.jpg','','','','','Картографическая гостиная 🗺','map_lounge','channel','AgACAgIAAxkBAAIEVWhv4HhCD6mnCMT5vT1Fgwv3tOpxAAJf9TEb-T7wSnTBOPKPO6wVAQADAgADeAADNgQ','test_chat_bot',now()+ interval '5 hour')
+10.07.2025 20:54:00;----------------------------------------------------------------------------------
+10.07.2025 20:54:00;QUERY_STRING;
+10.07.2025 20:54:00;REQUEST_METHOD;POST
+10.07.2025 20:54:00;CONTENT_TYPE;application/json
+10.07.2025 20:54:00;CONTENT_LENGTH;2254
+10.07.2025 20:54:00;REQUEST_URI;/tg_bot
+10.07.2025 20:54:00;PATH_INFO;/tg_bot
+10.07.2025 20:54:00;DOCUMENT_ROOT;/usr/share/nginx/html
+10.07.2025 20:54:00;SERVER_PROTOCOL;HTTP/1.1
+10.07.2025 20:54:00;REQUEST_SCHEME;https
+10.07.2025 20:54:00;HTTPS;on
+10.07.2025 20:54:00;REMOTE_ADDR;91.108.5.117
+10.07.2025 20:54:00;REMOTE_PORT;29208
+10.07.2025 20:54:00;SERVER_PORT;443
+10.07.2025 20:54:00;SERVER_NAME;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_HOST;refboard.na4u.ru
+10.07.2025 20:54:00;HTTP_CONTENT_TYPE;application/json
+10.07.2025 20:54:00;HTTP_CONTENT_LENGTH;2254
+10.07.2025 20:54:00;HTTP_CONNECTION;keep-alive
+10.07.2025 20:54:00;HTTP_ACCEPT_ENCODING;gzip, deflate
+10.07.2025 20:54:00;wsgi.input;<uwsgi._Input object at 0x7f742ce79240>
+10.07.2025 20:54:00;wsgi.file_wrapper;<built-in function uwsgi_sendfile>
+10.07.2025 20:54:00;wsgi.version;(1, 0)
+10.07.2025 20:54:00;wsgi.errors;<_io.TextIOWrapper name=2 mode='w' encoding='UTF-8'>
+10.07.2025 20:54:00;wsgi.run_once;False
+10.07.2025 20:54:00;wsgi.multithread;True
+10.07.2025 20:54:00;wsgi.multiprocess;True
+10.07.2025 20:54:00;wsgi.url_scheme;https
+10.07.2025 20:54:00;uwsgi.version;b'2.0.18-debian'
+10.07.2025 20:54:00;uwsgi.core;1
+10.07.2025 20:54:00;uwsgi.node;b'h30.netangels.ru'
+10.07.2025 20:54:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828293','396902319','Andrey','Ustyantsev','T_473','1752162562','137828293_1752162562.jpg','Понравился прием с выносками для отдельных районов на интерактиве Zeit про выборы. 
+
+#датавизприемы','https://www.zeit.de/politik/deutschland/2025-02/bundestagswahl-2025-wahlergebnisse-wahlkreise-live','','','Чартомойка','chartomojka','channel','AgACAgIAAxkBAAIEVmhv4QJszXwH4NMT--zOfjqbyyI_AAKM6jEbdNAxS2oaTNvUkOs_AQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+12.07.2025 21:12:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828297','396902319','Andrey','Ustyantsev','T_473','1752336724','137828297_1752336724.jpg','Интересное исследование точности поисковых инструментов на основе LLM.
+
+Тогда как другие исследования показывают, что RAG может снизить частоту галлюцинаций до 1–2%, в реальных повседневных сценариях проблемы всё ещё остаются.
+
+Я лично пользуюсь ChatGPT и Perplexity (когда нужно искать в Reddit) и часто замечаю, что их саммари бывает ошибочно, но примерно половина найденных ресурсов оказывается релевантной и содержит нужный мне ответ.
+
+https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php
+
+@dataviznews','','','','🗞 Виз Ньюз','dataviznews','channel','AgACAgIAAxkBAAIEYWhyiVQTLgitfl0RUpJKMDedSsyMAAJs8DEb9NDASu7IJVB2K5DnAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+12.07.2025 21:47:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828300','396902319','Andrey','Ustyantsev','T_473','1752338822','137828300_1752338822.jpg','Что скрывают главные марафоны мира?
+
+Исследовала студентка последнего потока моего курса — Аделина Половцева.
+
+Я выбрала тему про главные марафоны мира, так называемые мэйджеры, потому что бегаю сама. Я, правда, больше люблю полумарафоны, но в глубине души надеюсь, что сама когда-нибудь пробегу мэйджер. 
+
+Я знала, что попасть на такой марафон сложно: нужно либо пройти квалификацию (пробежать марафон с хорошим темпом), либо собрать внушительные средства на благотворительность, либо выиграть в лотерею. Но не представляла, что настолько! Детальная разбивка есть по Лондону — там в прошлом году отобрали лишь 9% желающих.
+
+Самым сложным для меня оказался график с географией происхождения спортсменов-победителей. Пробовала и точечный, и столбчатый, и просто таблицу со странами и количеством медалей.
+
+Для таймлайна на самой первой карточке освоила супер практичный инструмент в Observable — изначально мне показалось, что беговая дорожка может быть классной метафорой — как путь развития марафонов. Но когда ты подсказал, как это оформить еще и в виде правильного графика, а не «картинкой на глазок» и с отдельной точкой начала марафона в каждом городе, карточка стала более понятной.
+
+Мне правда было интересно работать над проектом, и я получила большое удовольствие.
+
+Напомню, что уже завтра в 20:00 по Москве у меня будет бесплатный вебинар, на котором я расскажу и вам о том, как правильно показывать интересные инсайты из вашего анализа.
+
+Регистрация = подписка на этот канал.
+
+#работы_студентов','https://t.me/+jTDpFqCmvXdkN2M6','','','data.csv','data_csv','channel','AgACAgIAAxkBAAIEY2hykYa_blvkuk6mAaaEMFuS2humAAJz7zEb7OJZS2qiixN0S4Z_AQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+12.07.2025 21:47:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828301','396902319','Andrey','Ustyantsev','T_473','1752338822','137828301_1752338822.jpg','','','','','data.csv','data_csv','channel','AgACAgIAAxkBAAIEZGhykYaBWyAwxR0w4WTEerabB6dJAAJ17zEb7OJZS3EY2_PuBnLLAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+12.07.2025 21:47:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828302','396902319','Andrey','Ustyantsev','T_473','1752338822','137828302_1752338822.jpg','','','','','data.csv','data_csv','channel','AgACAgIAAxkBAAIEZWhykYY5m3m39yronMYumiZCVZLoAAJ07zEb7OJZS1SR57v8W8ddAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+12.07.2025 21:47:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828303','396902319','Andrey','Ustyantsev','T_473','1752338822','137828303_1752338822.jpg','','','','','data.csv','data_csv','channel','AgACAgIAAxkBAAIEZmhykYbh9_J57BMNGfNAzdpHd8_vAAJ27zEb7OJZS-7K7xUEn6TeAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+12.07.2025 21:47:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828304','396902319','Andrey','Ustyantsev','T_473','1752338822','137828304_1752338822.jpg','','','','','data.csv','data_csv','channel','AgACAgIAAxkBAAIEZ2hykYZwf_LiHM0GHUW-mHOGNpYwAAJ47zEb7OJZS-Pkcfh77yrVAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+12.07.2025 21:47:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828305','396902319','Andrey','Ustyantsev','T_473','1752338822','137828305_1752338822.jpg','','','','','data.csv','data_csv','channel','AgACAgIAAxkBAAIEaGhykYbQr8AvJAlSLytCQkNfLqQ5AAJ37zEb7OJZSwiYnHaWIgfgAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
+09.08.2025 18:20:00;INSERT INTO refdash                                     (update_id,                                      chat_id,                                      from_first_name,                                      from_second_name,                                      from_username,                                      message_date,                                      file_name,                                      caption,                                      caption_url,                                      message_text,                                      message_type,                                     forward_from_chat,                                      forward_from_chat_name,                                      forward_from_chat_type,                                      file_id,                                      chat_bot,                                      dt) VALUES ('137828319','396902319','Andrey','Ustyantsev','T_473','1754745648','137828319_1754745648.jpg','"Яркие" метрики могут врать.
+Метрики "в тени" говорят правду.
+
+На дашбордах обычно гордо размещают карточки с основными метриками:
+ → CR = 3,1%
+ → LTV = $300
+ → Отказность = 65%.
+
+Но важные контекстные метрики зачастую упускают из виду:
+ → Новые сессии ↓ 40 %
+ → Медианная LTV = 90 долларов
+ → CTR до оформления заказа = 45 %.
+
+Метрики на виду привлекают внимание.
+Хотя "теневые" метрики могли бы изменить решение.
+
+Вот почему мы запилили эту шпаргалку с 9 примерами, когда вторая метрика меняет всё.
+
+@jetmetrics','','','','JetMetrics','jetmetrics','channel','AgACAgIAAxkBAAIEc2iXSzBHl3A17cU466EV1xfFUqp0AAKM8zEbI-7ASGNPR4trEKzeAQADAgADeQADNgQ','test_chat_bot',now()+ interval '5 hour')
