@@ -1,0 +1,35 @@
+WITH T AS 
+(SELECT  refdash.message_date,
+        refdash.file_name,
+        refdash.from_first_name,
+        refdash.from_second_name,
+        refdash.from_username,
+        refdash.caption,
+        refdash.forward_from_chat_name,
+        refdash.forward_from_chat_type,
+        refdash.forward_from_chat,
+        refdash.caption_url, 
+        refdash.id, 
+        COUNT(DISTINCT CASE WHEN voices.voice=1 THEN voices.id END) as v1,
+        COUNT(DISTINCT CASE WHEN voices.voice=2 THEN voices.id END) as v2,
+        COUNT(DISTINCT CASE WHEN voices.voice=3 THEN voices.id END) as v3,
+        COUNT(DISTINCT notes.id) as notes
+FROM refdash 
+LEFT JOIN voices ON refdash.id = voices.id_graph
+LEFT JOIN notes ON refdash.id = notes.id_graph
+WHERE refdash.file_name is not null
+GROUP BY refdash.message_date,
+        refdash.file_name,
+        refdash.from_first_name,
+        refdash.from_second_name,
+        refdash.from_username,
+        refdash.caption,
+        refdash.forward_from_chat_name,
+        refdash.forward_from_chat_type,
+        refdash.forward_from_chat,
+        refdash.caption_url, 
+        refdash.id)
+SELECT *,
+8*v1+5*v2-3*v3 AS rate
+FROM T
+ORDER BY rate DESC

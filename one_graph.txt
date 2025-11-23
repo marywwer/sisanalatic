@@ -1,0 +1,72 @@
+<html>
+
+<head>
+<style>
+	body { margin:5%;
+		   font-family:Arial;
+		 }
+	a {font-family:Arial;}
+
+</style>
+</head>
+<body>
+<table width="100%">
+    <tr>
+        <td rowspan="2" align="left">
+            <img border="0" src="{{file_name}}">
+        </td>
+        <td align="left" valign="top" width="30%">
+            <div id="{{id_graph}}_notes" style="display:none">
+                {{notes}}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="left" valign="bottom">
+            <div id="{{id_graph}}_klass" style="display:block">
+                <!--{{klass}}-->
+            </div>        
+        </td>
+    </tr>
+</table>
+
+
+<!-- Блок голосования    
+<table width="100%">
+  <tr>
+      <td align="left">
+        <table>
+            <tr>
+              <td align="left"><a><p id="{{id_graph}}_1" class='d33_1' onclick='vote({{id_graph}},1);'><b>{{v1}}</b></p></a></td>
+              <td align="left"><a><p id="{{id_graph}}_2" class='d33_2' onclick='vote({{id_graph}},2);'><b>{{v2}}</b></p></a></td>
+              <td align="left"><a><p id="{{id_graph}}_3" class='d33_3' onclick='vote({{id_graph}},3);'><b>{{v3}}</b></p></a></td>
+            </tr>
+        </table>
+      </td>
+      <td align="right" valign="middle">
+        <a class="button15" onclick="show_notes({{id_graph}});">Заметки</a>
+      </td>
+  </tr>    
+</table>-->
+<!-- Конец блока голосования   -->
+
+
+<br>
+<table border="1" width="100%" cellspacing="0" cellpadding="5">
+	<tr>
+		<td width="30%"><font size="2" color="#C0C0C0">{{message_date}}</font></td>
+		<td colspan="3" rowspan="2" valign="top"><font size="2">{{caption}}</font></td>
+	</tr>
+	<tr>
+		<td><font size="2" color="#C0C0C0">{{from_first_name}} {{from_second_name}}<br>{{from_username}}</font></td>
+	</tr>
+	<tr>
+		<td width="30%"><font size="2" color="#C0C0C0">Источник</font></td>
+		<td width="30%"><font size="2" color="#C0C0C0">{{forward_from_chat_name}} :: {{forward_from_chat_type}}</font></td>
+		<td width="30%"><font size="2" color="#C0C0C0">{{forward_from_chat}}</font></td>
+		<td width="10%">{{caption_url}}</td>
+	</tr>
+</table>
+<br>
+
+<hr>

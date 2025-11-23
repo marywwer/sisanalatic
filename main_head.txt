@@ -1,0 +1,353 @@
+<html>
+
+<head>
+
+<style>
+	body { margin:5%;
+		   font-family:Arial;
+		 }
+	a {font-family:Arial;}
+	img {max-height: 80vh;}
+	.d33_1 {  text-align: center;
+	        line-height: 40px;
+            width: 80px; 
+            height: 40px; 
+            margin-left: 26px;
+            margin-right: 25px;
+            background: limegreen;
+            position: relative;
+            border-radius: 10px;
+            float: left;
+        }
+    .d33_1:before 
+        {
+            content: "";
+            width: 0; 
+            height: 0;
+            position: absolute; 
+            right: 100%; 
+            top: calc(50% - 12px);
+            border-top: 12px solid transparent;
+            border-right: 24px solid limegreen;
+            border-bottom: 12px solid transparent;
+        }
+        
+	.d33_2 {  text-align: center;
+	        line-height: 40px;
+            width: 80px; 
+            height: 40px; 
+            margin-left: 26px;
+            margin-right: 25px;
+            background: lightgray;
+            position: relative;
+            border-radius: 10px;
+            float: left;
+        }
+    .d33_2:before 
+        {
+            content: "";
+            width: 0; 
+            height: 0;
+            position: absolute; 
+            right: 100%; 
+            top: calc(50% - 12px);
+            border-top: 12px solid transparent;
+            border-right: 24px solid lightgray;
+            border-bottom: 12px solid transparent;
+        }  
+    .d33_3 {  text-align: center;
+	        line-height: 40px;
+            width: 80px; 
+            height: 40px; 
+            margin-left: 26px;
+            margin-right: 25px;
+            background: red;
+            position: relative;
+            border-radius: 10px;
+            float: left;
+        }
+    .d33_3:before 
+        {
+            content: "";
+            width: 0; 
+            height: 0;
+            position: absolute; 
+            right: 100%; 
+            top: calc(50% - 12px);
+            border-top: 12px solid transparent;
+            border-right: 24px solid red;
+            border-bottom: 12px solid transparent;
+        } 
+        
+        /* стиль отображения серой кнопки для заметок (отобразить, сохранить)*/
+        a.button15 {
+          line-height: 30px;
+          height: 30px; 
+          display: inline-block;
+          font-family: arial,sans-serif;
+          font-size: 12px;
+          font-weight: bold;
+          color: rgb(68,68,68);
+          text-decoration: none;
+          user-select: none;
+          padding: .2em 1.2em;
+          outline: none;
+          border: 1px solid rgba(0,0,0,.1);
+          border-radius: 2px;
+          background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+          transition: all .218s ease 0s;
+        }
+        a.button15:hover {
+          color: rgb(24,24,24);
+          border: 1px solid rgb(198,198,198);
+          background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+          box-shadow: 0 1px 2px rgba(0,0,0,.1);
+        }
+        a.button15:active {
+          color: rgb(51,51,51);
+          border: 1px solid rgb(204,204,204);
+          background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+          box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+        } 
+        
+        /* стили отображения заметок к картинкам в виде стикеров */
+        #notes li {
+            list-style-type: none;
+            position: relative;
+            width: 250px;
+            min-height: 50px;
+            margin: 25px auto;
+            padding: 15px;
+            background: lightblue;
+            background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(lightblue), to(lightblue));
+            background: -moz-linear-gradient(top, lightblue, lightblue);
+            -webkit-box-shadow: 0 2px 12px rgba(0,0,0,.5);
+            -moz-box-shadow: 0 2px 12px (rgba(0,0,0.5));
+            box-shadow: 0 1px 2px #000;
+            -webkit-transform: rotate(-.5deg);
+            -moz-transform: rotate(-.5deg);
+            -o-transform: rotate(-.5deg);     
+        }
+        
+        #notes li:nth-child(even) {
+            -webkit-transform: rotate(.5deg);
+            -moz-transform: rotate(.5deg);
+            -o-transform: rotate(.5deg);     
+        }
+        
+        #notes li p {
+            text-align: left;
+            //font: normal normal normal 40px/48px 'Reenie Beanie', Helvetica, Arial, sans-serif;
+            color: #000;
+            text-shadow: white 1px 1px 0px;
+            overflow:hidden;
+        }
+        
+        #notes li::before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 115px;
+            top: -15px;
+            width: 75px;
+            height: 25px;
+            z-index: 2;
+            background-color: rgba(243,245,228,0.5);
+            border: 2px solid rgba(255,255,255,0.5);
+            -webkit-box-shadow: 0 0 5px #888;
+            -moz-box-shadow: 0 0 5px #888;
+            box-shadow: 2px 2px 2px #000;
+            -webkit-transform: rotate(-6deg);
+            -moz-transform: rotate(-6deg);
+            -o-transform: rotate(-6deg);
+        }
+        
+        #notes li:nth-child(even)::before {
+            -webkit-transform: rotate(6deg);
+            -moz-transform: rotate(6deg);
+            -o-transform: rotate(6deg);
+        }
+        
+        /* стили кнопок для классификации */
+    .klass_set
+        { border: 2px solid blue;
+          color:blue;
+          background-color: white;
+          border-radius: 25px;
+          margin: 5px;
+          float: left;
+          padding:7px;
+          font-size: 10pt;
+        }
+        
+    .klass_unset
+        { border: 2px solid blue;
+          color:white;
+          background-color: blue;
+          border-radius: 25px;
+          margin: 5px;
+          float: left;
+          padding:7px;
+          font-size: 10pt;
+        }        
+</style>
+
+<script>
+    function vote(id_graph,id_voice) 
+        {
+            //alert( "/site_vote?id_graph="+id_graph+"&id_vote=1" );
+            var req = new XMLHttpRequest();
+            req.open("GET", "/site_vote?id_graph="+id_graph+"&id_voice="+id_voice, false);
+            req.send(null);
+            //console.log(req.responseText);
+            
+            var x=document.getElementById(id_graph+"_"+id_voice);
+            x.innerHTML = "<b>"+req.responseText+"</b>";
+        }
+    
+    function show_notes(id_graph)
+        { div_notes=id_graph+'_notes';
+          document.getElementById(div_notes).style.display='block';
+          div_klass=id_graph+'_klass'
+          document.getElementById(div_klass).style.display='block';
+        }
+    
+    function notice(id_graph) 
+        {
+            var x=document.getElementById(id_graph+"_note");
+            var y=x.value;
+            //alert(y);
+            
+            var req = new XMLHttpRequest();
+            req.open("GET", "/site_note?id_graph="+id_graph+"&note="+y, false);
+            req.send(null);
+            
+            alert(req.responseText);
+        }
+    
+    function set_klass(id_graph,id_klass)
+        {   div_id="klass_"+id_graph+"_"+id_klass;
+            
+            if ( document.getElementById(div_id).classList.contains('klass_set') )
+                { regim=1;
+                }
+            if ( document.getElementById(div_id).classList.contains('klass_unset') )
+                { regim=0;
+                }
+            
+            // regim:
+            //     1 - добавление классификации
+            //     0 - удаление классификации
+            
+            var req = new XMLHttpRequest();
+            req.open("GET", "/klass_graph?id_graph="+id_graph+"&id_klass="+id_klass+"&regim_klass="+regim, false);
+            req.send(null);
+            
+            if (req.responseText!="ok") 
+                { alert("Возникла ошибка ....");
+                }
+              else
+                { 
+                  if (regim==1)
+                    {  
+                      document.getElementById(div_id).classList.add('klass_unset');
+                      document.getElementById(div_id).classList.remove('klass_set');
+                    }
+                  if (regim==0)
+                    {
+                      document.getElementById(div_id).classList.add('klass_set');
+                      document.getElementById(div_id).classList.remove('klass_unset');
+                    }
+                }
+            
+            //alert(req.responseText);
+        }
+    
+    var main_filter={};
+        
+    function set_filter(id_klass)
+        {   div_id="filter_"+id_klass;
+            
+            if ( document.getElementById(div_id).classList.contains('klass_set') )
+                { regim=1;
+                  main_filter[div_id]=1;
+                }
+            if ( document.getElementById(div_id).classList.contains('klass_unset') )
+                { regim=0;
+                  main_filter[div_id]=0;
+                }
+            
+            // regim:
+            //     1 - добавление классификации
+            //     0 - удаление классификации
+            
+              if (regim==1)
+                {  
+                  document.getElementById(div_id).classList.add('klass_unset');
+                  document.getElementById(div_id).classList.remove('klass_set');
+                }
+              if (regim==0)
+                {
+                  document.getElementById(div_id).classList.add('klass_set');
+                  document.getElementById(div_id).classList.remove('klass_unset');
+                }
+        }
+    
+    function show_filters()
+        { window.location.href = "/?filters="+JSON.stringify(main_filter);
+          //alert("Фильтры пока не работают");
+        }
+</script>
+
+<meta http-equiv="Content-Language" content="ru">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Галерея дашбордов</title>
+</head>
+
+<body>
+
+<h1 align="center"><font color="#0b317c">Галерея дашбордов [ {{count}} ]</font></h1>
+<br>
+<div id="menu_div" style="display:none">
+    <table table border="1" width="100%" cellspacing="0" cellpadding="10">
+    	<tr>
+    		<td width="30%"><h2><font color="#0b317c"><b>Что это и зачем это ...</b></font></h2></td>
+    		<td>Развернуто : тут <a href="https://dashboardgallery.ru/">
+    		https://dashboardgallery.ru/</a> 
+    		<p>Кратко: это подборка примеров визуализации данных на дашбордах и в 
+    		инфографике для тренировки насмотренности и поиска идей для создания 
+    		собственных датавизов</td>
+    	</tr>
+    	<tr>
+    		<td><h2><font color="#0B317C"><b>Как это работает ...</b></font></h2></td>
+    		<td>
+    		<ol>
+    			<li>в телеграмм-бота <a href="https://t.me/t473test_bot" target="_blank">@t473test</a> отправляются картинки дашбордов, инфографики, слайдов</li>
+    			<li>бот сохраняет их в базу данных вместе с описаниями</li>
+    			<li>все собранные примеры дашбордов и инфографики - ниже</li>
+    			<li>база знаний "по теме": полезные материалы и разборы дашбордов - тут <a href="https://dataviz.expertligaclub.ru/" target="_blank">https://dataviz.expertligaclub.ru/</a></li>
+    			<li>предложения и пожелания по улучшению - пишите <a href="https://t.me/T_473" target="_blank">@T_473</a></li>
+    		</ol>
+    		</td>
+    	</tr>
+    	<tr>
+    		<td><font color="#C0C0C0" size="2">Статистики</font></td>
+    		<td><font color="#C0C0C0" size="2">{{count}} всего образцов в базе</font></td>
+    	</tr>
+    </table>
+    <hr>
+    <h2 align="center"><font color="#0b317c">Как работать с галереей</font></h2>
+    <p>Под каждой картинкой с дашбордом есть три "кнопочки" разного цвета:</p>
+    <p style="background-color:lightgreen;line-height:30px;">Если вам нравится дашборд (неважно-почему) - тыкните на неё. Примеры дашбордов, которые соберут больше всего "зеленых лафков" - войдут в ТОП-Х</p>
+    <p style="background-color:red;line-height:30px;">Если вам <b>НЕ нравится</b> дашборд (неважно-почему) - тыкните на неё. Образцы "ужасных" дашбордов (как не надо делать) - тоже нужны</p>
+    <p style="background-color:lightgray;line-height:30px;">Нуничотак - в смысле - вроде норм, но ....</p>
+    <p>Справа внизу каждой картини - кнопка <a class="button15" href="#">Заметки</a>, нажав на которую, можно (а) увидеть заметки к картинке и (б) оставить свою </p>
+    <br>
+    <hr>
+</div>
+<hr>
+<div id="filter_div">
+    <h2>Фильтры</h2>
+    <p color='red'><b>"ТОП" и "ДичЪ" Пока НЕ работают</b></p>
+    {{filter}}
+</div>

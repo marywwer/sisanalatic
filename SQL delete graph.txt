@@ -1,0 +1,6 @@
+delete from klass where id_graph=215;
+delete from notes where id_graph=215;
+delete from voices where id_graph=215;
+delete from refdash where id=215;
+
+'274876385_1680514450.jpg
